@@ -51,7 +51,7 @@
             </li>
           </ul>
         </div>
-        <button class="border border-2 w-36 border-gradientfrom p-3 tracking-wider text-gradientfrom hover:text-white rounded rounded-3xl text-transparent font-semibold hover:bg-gradient-to-tl from-gradientfrom to-gradientto font-outfit">Kirish</button>
+        <button class="border border-2 w-36 border-gradientfrom p-3 tracking-wider text-gradientfrom hover:text-white rounded rounded-3xl font-semibold hover:bg-gradient-to-tl from-gradientfrom to-gradientto font-outfit">Kirish</button>
       </div>
     </div>
   </header>
