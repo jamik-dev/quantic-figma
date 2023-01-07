@@ -1,6 +1,6 @@
 <template>
-  <header class="w-screen py-10">
-    <div class="w-[85%] mx-auto flex justify-between items-center">
+  <header class="w-full py-10">
+    <div class="w-[80%] mx-auto flex justify-between items-center">
       <div>
         <img src="../../assets/img/logo.svg" alt="">
       </div>

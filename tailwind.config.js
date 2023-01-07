@@ -10,7 +10,8 @@ module.exports = {
         'primary': '#170F49',
         'gradientfrom': '#F92B74',
         'gradientto': '#FB4C59',
-        'hoverbg': '#EFF0F6'
+        'hoverbg': '#EFF0F6',
+        'blueish': '#51CCF3'
       }
     },
     fontFamily: {

@@ -1,8 +1,6 @@
 <template>
   <Navbar />
-  <section id="layout" class="w-[85%] mx-auto">
-    <router-view></router-view>
-  </section>
+  <router-view></router-view>
   <Footer />
 </template>
 
