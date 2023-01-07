@@ -13,7 +13,7 @@ module.exports = {
         'hoverbg': '#EFF0F6',
         'blueish': '#51CCF3',
         'greyish': '#F4F4F4',
-        
+        'neutral': '#D9DBE9'
       }
     },
     fontFamily: {
