@@ -34,30 +34,30 @@
         </ul>
       </div>
       <div class="flex space-x-3 items-start">
-        <div class="text-primary font-outfit rounded rounded-3xl border border-hoverbg overflow-hidden shadow-lg">
-          <ul class="relative" aria-labelledby="dropdown">
-            <li class="flex items-center hover:bg-hoverbg p-2">
+          <ul class="text-primary bg-white font-outfit rounded-tl-3xl rounded-tr-3xl relative border border-hoverbg shadow-lg" :class="{'rounded-3xl':!toggleDropdown}" aria-labelledby="dropdown">
+            <li class="flex items-center p-2 rounded-tl-3xl rounded-tr-3xl" :class="{'bg-hoverbg':toggleDropdown, 'rounded-3xl':!toggleDropdown}" @click="toggleDropdown = !toggleDropdown">
               <img src="../../assets/img/uzb.svg" alt="">
               <a href="#" class="text-sm text-primary px-2 py-2 font-semibold">O'zbekcha</a>
-              <img class="text-end rotate-180" src="../../assets/img/arrow-up.svg" alt="">
+              <img class="text-end" :class="{'rotate-180':!toggleDropdown}" src="../../assets/img/arrow-up.svg" alt="">
             </li>
-            <li class="flex items-center p-2 hidden">
+            <li v-if="toggleDropdown" class="flex items-center bg-white left-0 w-full -bottom-13 absolute p-2 shadow-lg">
               <img src="../../assets/img/rus.svg" alt="">
               <a href="#" class="text-sm text-primary px-2 py-2">Russian</a>
             </li>
-            <li class="flex items-center p-2 hidden">
+            <li v-if="toggleDropdown" class="flex items-center bg-white w-full absolute left-0 -bottom-24 shadow-lg rounded-bl-3xl rounded-br-3xl p-2">
               <img src="../../assets/img/eng.svg" alt="">
               <a href="#" class="text-sm text-primary px-2 py-2">United</a>
             </li>
           </ul>
-        </div>
-        <button class="border border-2 w-36 border-gradientfrom p-3 tracking-wider text-gradientfrom hover:text-white rounded rounded-3xl font-semibold hover:bg-gradient-to-tl from-gradientfrom to-gradientto font-outfit">Kirish</button>
+        <button class="border-2 w-36 border-gradientfrom p-3 tracking-wider text-gradientfrom hover:text-white rounded-3xl font-semibold hover:bg-gradient-to-tl from-gradientfrom to-gradientto font-outfit">Kirish</button>
       </div>
     </div>
   </header>
 </template>
 
 <script setup>
+import {ref} from 'vue'
+const toggleDropdown = ref(false)
 </script>
 
 <style>
