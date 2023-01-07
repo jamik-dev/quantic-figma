@@ -11,7 +11,9 @@ module.exports = {
         'gradientfrom': '#F92B74',
         'gradientto': '#FB4C59',
         'hoverbg': '#EFF0F6',
-        'blueish': '#51CCF3'
+        'blueish': '#51CCF3',
+        'greyish': '#F4F4F4',
+        
       }
     },
     fontFamily: {
