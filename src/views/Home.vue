@@ -101,29 +101,29 @@
       <div class="w-2/3">
         <div class="w-full p-8 h-1/2 flex items-center justify-center">
           <div class="w-1/3 flex space-x-2 items-center">
-            <img src="../assets/img/robot-icon.svg" alt="">
+            <img src="../assets/img/robot-icon.svg" class="hover:-translate-y-2 duration-300 cursor-pointer" alt="">
             <p class="font-outfit text-md text-primary tracking-wide">IOT & <br> Robotech</p>
           </div>
           <div class="w-1/3 flex space-x-2 items-center">
-            <img src="../assets/img/marketing-icon.svg" alt="">
+            <img src="../assets/img/marketing-icon.svg" class="hover:-translate-y-2 duration-300 cursor-pointer" alt="">
             <p class="font-outfit text-md text-primary tracking-wide">Media & <br> Xizmatlar</p>
           </div>
           <div class="w-1/3 flex space-x-2 items-center">
-            <img src="../assets/img/speaker-icon.svg" alt="">
+            <img src="../assets/img/speaker-icon.svg" class="hover:-translate-y-2 duration-300 cursor-pointer" alt="">
             <p class="font-outfit text-md text-primary tracking-wide">Smart <br> Yordamchilar</p>
           </div>
         </div>
         <div class="w-full p-8 h-1/2 flex items-center justify-center">
           <div class="w-1/3 flex space-x-2 items-center">
-            <img src="../assets/img/scholarship-icon.svg" alt="">
+            <img src="../assets/img/scholarship-icon.svg" class="hover:-translate-y-2 duration-300 cursor-pointer" alt="">
             <p class="font-outfit text-md text-primary tracking-wide">Ta'lim & <br> Sohalari</p>
           </div>
           <div class="w-1/3 flex space-x-2 items-center">
-            <img src="../assets/img/smartphone-icon.svg" alt="">
+            <img src="../assets/img/smartphone-icon.svg" class="hover:-translate-y-2 duration-300 cursor-pointer" alt="">
             <p class="font-outfit text-md text-primary tracking-wide">Online & <br> Dasturlar</p>
           </div>
           <div class="w-1/3 flex space-x-2 items-center">
-            <img src="../assets/img/languages-icon.svg" alt="">
+            <img src="../assets/img/languages-icon.svg" class="hover:-translate-y-2 duration-300 cursor-pointer" alt="">
             <p class="font-outfit text-md text-primary tracking-wide">Ovozli <br> Tarjimonlar sohalari</p>
           </div>
         </div>
