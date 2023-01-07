@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <RouterView />
+  <div class="relative overflow-hidden">
+    <RouterView />
+  </div>
 </template>
 
 <style scoped>

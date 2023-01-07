@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[85%] rounded-xl duration-200 hover:shadow-2xl pt-2 px-2 pb-4 cursor-pointer">
+  <div class="w-[85%] rounded-xl bg-white duration-200 hover:shadow-2xl pt-2 px-2 pb-4 cursor-pointer">
     <img :src="getImageUrl" class="w-full rounded-lg" alt="">
     <div class="flex flex-col space-y-2 mt-4 p-2">
       <h1 class="text-primary font-outfit font-semibold text-2xl tracking-wide">
