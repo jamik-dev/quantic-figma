@@ -1,6 +1,8 @@
 <template>
   <section id="home" class="w-[80%] mx-auto">
     <main class="flex items-center">
+      <div class="absolute h-40 w-40 rounded-[100%] bg-gradientto left-20 top-40 blur-[120px] -z-10"></div>
+      <div class="absolute h-40 w-40 rounded-[100%] bg-blueish left-16 top-64 blur-[120px] -z-10"></div>
       <div class="w-1/2">
         <div class="flex flex-col space-y-8">
           <h1 class="font-outfit text-6xl text-primary max-w-10 font-bold">Matnni ovozga o'girish</h1>
@@ -30,8 +32,9 @@
     <div class="fixed right-16 bottom-8 z-10 cursor-pointer">
       <div class="w-[72px] h-[72px] rounded-[100%] bg-gradient-to-r from-gradientfrom to-gradientto flex items-center justify-center"><img src="../assets/img/chat.svg" alt=""></div>
     </div>
-    <div class="w-full flex mt-20">
+    <div class="w-full relative flex mt-20">
       <div class="w-1/2">
+        <div class="absolute h-40 w-40 rounded-[100%] bg-blueish -left-40 top-10 blur-[120px] -z-10"></div>
         <div class="flex flex-col space-y-3">
           <p class="uppercase text-blueish tracking-widest text-md font-outfit">Bizning loyihalar</p>
           <h1 class="text-primary text-4xl font-outfit font-bold tracking-wide max-w-[80%]">Bizning amalga oshirilgan
@@ -77,7 +80,9 @@
     <div class="w-full mt-20">
       <img src="../assets/img/banner.jpg" class="mx-auto" alt="">
     </div>
-    <div class="w-full mt-40 mb-60">
+    <div class="w-full relative mt-40 mb-60">
+      <div class="absolute h-40 w-40 rounded-[100%] bg-blueish -left-20 -top-10 blur-[175px] -z-10"></div>
+      <div class="absolute h-40 w-40 rounded-[100%] bg-gradientto -right-20 -top-10 blur-[175px] -z-10"></div>
       <h1 class="text-primary text-4xl text-center mx-auto font-outfit font-bold tracking-wide max-w-[50%]">TTS.uz API
         xizmatidan foydalanish ketma-ketligi</h1>
       <div class="flex mt-20 justify-between relative">
@@ -88,7 +93,7 @@
               src="../assets/img/notebook.svg" alt=""></div>
           <div class="mt-6 space-y-3">
             <h1 class="text-primary text-2xl text-center mx-auto font-outfit font-bold tracking-wide">Shartnoma</h1>
-            <p class="max-w-[80%] text-center mx-auto font-outfit tracking-wide text-primary">tts.uz API xizmatidan
+            <p class="max-w-[80%] text-center mx-auto font-outfit tracking-wide text-primary font-thin">tts.uz API xizmatidan
               foydalanish uchun shartnoma qilinadi</p>
           </div>
         </div>
@@ -98,7 +103,7 @@
           <div class="mt-6 space-y-3">
             <h1 class="text-primary text-2xl text-center mx-auto font-outfit font-bold tracking-wide">Tariflar &
               To'lovlar</h1>
-            <p class="max-w-[80%] text-center mx-auto font-outfit tracking-wide text-primary">Shartnoma qilinganidan
+            <p class="max-w-[80%] text-center mx-auto font-outfit tracking-wide text-primary font-thin">Shartnoma qilinganidan
               so'ng ta’rif tanlanadi</p>
           </div>
         </div>
@@ -108,7 +113,7 @@
           <div class="mt-6 space-y-3">
             <h1 class="text-primary text-2xl text-center mx-auto font-outfit font-bold tracking-wide">O'rnatish & Ishga
               tushirish</h1>
-            <p class="max-w-[80%] text-center mx-auto font-outfit tracking-wide text-primary">Saytga o'rnatish uchun
+            <p class="max-w-[80%] text-center mx-auto font-outfit tracking-wide text-primary font-thin">Saytga o'rnatish uchun
               JavaScript plugin beriladi va ungan api token biriktirilib saytga o'rnatiladi</p>
           </div>
         </div>
