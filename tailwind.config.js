@@ -16,9 +16,9 @@ module.exports = {
         'neutral': '#D9DBE9'
       },
       animation: {
-        move: 'move 10000s linear infinite',
-        move2: 'move 20000s linear infinite',
-        move3: 'move 15000s linear infinite',
+        move: 'move 40s linear infinite',
+        move2: 'move 80s linear infinite',
+        move3: 'move 60s linear infinite',
       }
     },
     fontFamily: {
@@ -28,7 +28,7 @@ module.exports = {
     keyframes: {
       move: {
         '0%': { top: '-100px' },
-        '100%': { top: '1000%' },
+        '100%': { top: '100%' },
       }
     }
   },

@@ -49,7 +49,7 @@
               <a href="#" class="text-sm text-primary px-2 py-2">United</a>
             </li>
           </ul>
-        <button class="border-2 w-36 border-gradientfrom p-3 tracking-wider text-gradientfrom hover:text-white rounded-3xl font-semibold hover:bg-gradient-to-tl from-gradientfrom to-gradientto font-outfit">Kirish</button>
+        <button class="border-2 w-36 border-gradientfrom p-3 tracking-wider text-gradientfrom hover:text-white rounded-3xl font-semibold font-outfit relative group overflow-hidden duration-300"><span class="h-0 w-0 absolute -z-10 left-0 bottom-0 duration-300 group-hover:h-[140%] group-hover:w-[140%] rounded-tr-[100%] group-hover:bg-gradient-to-tl from-gradientfrom to-gradientto"></span> Kirish</button>
       </div>
     </div>
   </header>
