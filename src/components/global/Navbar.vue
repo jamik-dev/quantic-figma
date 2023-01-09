@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full py-10">
+  <header class="w-full py-6 z-10 fixed top-0 bg-white">
     <div class="w-[80%] mx-auto flex justify-between items-center">
       <div>
         <img src="../../assets/img/logo.svg" alt="">
@@ -9,27 +9,27 @@
           <li class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Bosh Sahifa</span>
             <span
-              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-200"></span>
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
           </li>
           <li class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Loyihalar</span>
             <span
-              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-200"></span>
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
           </li>
           <li class="relative group cursor-pointer">
             <span class="text-primary font-outfit">API</span>
             <span
-              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-200"></span>
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
           </li>
           <li class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Sohalar</span>
             <span
-              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-200"></span>
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
           </li>
           <li class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Statistika</span>
             <span
-              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-200"></span>
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
           </li>
         </ul>
       </div>

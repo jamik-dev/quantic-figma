@@ -16,9 +16,13 @@ module.exports = {
         'neutral': '#D9DBE9'
       },
       animation: {
-        move: 'move 40s linear infinite',
-        move2: 'move 80s linear infinite',
-        move3: 'move 60s linear infinite',
+        move1: 'move 20s linear infinite',
+        move2: 'move 10s linear infinite',
+        move3: 'move 30s linear infinite',
+        move4: 'move 15s linear infinite',
+        move5: 'move 25s linear infinite',
+        move6: 'move 10s linear infinite',
+        bounce: 'bounce 2s ease infinite'
       }
     },
     fontFamily: {
@@ -27,8 +31,16 @@ module.exports = {
     },
     keyframes: {
       move: {
-        '0%': { top: '-100px' },
+        '0%': { top: '0px' },
         '100%': { top: '100%' },
+      },
+      bounce: {
+        '0%, 100%' : {
+          transform: 'translateY(-25%)'
+        },
+        '50%' : {
+          transform: 'translateY(0)'
+        }
       }
     }
   },
