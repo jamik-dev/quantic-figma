@@ -1,36 +1,36 @@
 <template>
-  <header class="w-full py-6 z-10 fixed top-0 bg-white">
+  <div class="w-full py-6 z-10 fixed top-0 bg-white">
     <div class="w-[80%] mx-auto flex justify-between items-center">
       <div>
         <img src="../../assets/img/logo.svg" alt="">
       </div>
       <div class="ml-40">
         <ul class="flex space-x-10">
-          <li class="relative group cursor-pointer">
+          <a href="home#home" class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Bosh Sahifa</span>
             <span
               class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
-          </li>
-          <li class="relative group cursor-pointer">
+          </a>
+          <a href="home#projects" class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Loyihalar</span>
             <span
               class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
-          </li>
-          <li class="relative group cursor-pointer">
+          </a>
+          <a href="home#api" class="relative group cursor-pointer">
             <span class="text-primary font-outfit">API</span>
             <span
               class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
-          </li>
-          <li class="relative group cursor-pointer">
+          </a>
+          <a href="home#fields" class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Sohalar</span>
             <span
               class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
-          </li>
-          <li class="relative group cursor-pointer">
+          </a>
+          <a href="home#statistics" class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Statistika</span>
             <span
               class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
-          </li>
+          </a>
         </ul>
       </div>
       <div class="flex space-x-3 items-start">
@@ -52,7 +52,7 @@
         <button class="border-2 w-36 border-gradientfrom p-3 tracking-wider text-gradientfrom hover:text-white rounded-3xl font-semibold font-outfit relative group overflow-hidden duration-300"><span class="h-0 w-0 absolute -z-10 left-0 bottom-0 duration-300 group-hover:h-[140%] group-hover:w-[140%] rounded-tr-[100%] group-hover:bg-gradient-to-r from-gradientfrom to-gradientto"></span> Kirish</button>
       </div>
     </div>
-  </header>
+  </div>
 </template>
 
 <script setup>
