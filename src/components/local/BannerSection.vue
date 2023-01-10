@@ -1,6 +1,6 @@
 <template>
     <div class="w-full mt-20">
-      <img src="../assets/img/banner.jpg" class="mx-auto" alt="">
+      <img src="../../assets/img/banner.jpg" class="mx-auto" alt="">
     </div>
 </template>
 
