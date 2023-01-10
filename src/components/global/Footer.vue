@@ -1,10 +1,10 @@
 <template>
-  <footer class="w-full bg-primary py-8">
+  <div class="w-full bg-primary py-8 mt-20">
     <div class="w-[80%] mx-auto">
       <div class="flex">
         <div class="w-2/6 flex flex-col">
           <img class="w-28" src="../../assets/img/logo-2.svg" alt="">
-          <p class="font-outfit text-white text-lg mt-5 tracking-wide">Ovoz va Ovoz atrofidagi loyihalar ustida ish olib
+          <p class="font-outfit text-white text-lg mt-5 tracking-wide max-w-[75%]">Ovoz va Ovoz atrofidagi loyihalar ustida ish olib
             boramiz</p>
           <div class="flex space-x-3 mt-10">
             <div
@@ -68,7 +68,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 </template>
 
 <script setup>
