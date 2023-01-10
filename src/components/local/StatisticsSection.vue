@@ -1,5 +1,6 @@
 <template>
-  <div class="flex items-center justify-center mt-20" id="statistics">
+  <div class="w-full h-28" id="statistics"></div>
+  <div class="flex items-center justify-center">
     <div class="w-1/3 flex flex-col space-y-2 items-center justify-center">
       <img src="../../assets/img/users.svg" class="w-20" alt="">
       <h1 class="text-primary text-3xl text-center mx-auto font-outfit tracking-wide font-bold">648 000+</h1>

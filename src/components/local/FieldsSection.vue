@@ -1,8 +1,8 @@
 <template>
-  <div class="mb-20" id="fields">
+  <div class="w-full h-28" id="fields"></div>
     <div class="flex rounded-xl w-full p-2 bg-greyish">
       <div class="w-1/3 bg-blueish rounded-xl px-5 py-6">
-        <h1 class="text-white w-full text-3xl font-outfit text-primary tracking-wide">TTS & STT tizimlarini o'rnatish
+        <h1 class="text-white w-full text-3xl font-outfit tracking-wide">TTS & STT tizimlarini o'rnatish
           reja qilingan sohalar</h1>
       </div>
       <div class="w-2/3">
@@ -37,7 +37,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
 </template>
 

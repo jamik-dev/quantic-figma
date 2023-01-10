@@ -1,5 +1,6 @@
 <template>
-    <div class="w-full relative flex mt-20" id="projects">
+    <div class="w-full h-20" id="projects"></div>
+    <div class="w-full relative flex">
       <div class="w-1/2">
         <div class="absolute h-40 w-40 rounded-[100%] bg-blueish -left-40 top-10 blur-[120px] z-10"></div>
         <div class="flex flex-col space-y-3">
