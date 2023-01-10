@@ -1,5 +1,5 @@
 <template>
-    <main class="flex items-center" id="home">
+    <div class="flex items-center">
       <div class="absolute h-40 w-40 rounded-[100%] bg-gradientto left-20 top-40 blur-[120px] z-10"></div>
       <div class="absolute h-40 w-40 rounded-[100%] bg-blueish left-16 top-64 blur-[120px] z-10"></div>
       <div class="w-1/2">
@@ -27,7 +27,7 @@
       <div class="w-1/2 flex items-end">
         <img src="../../assets/img/robot.png" class="w-full" alt="">
       </div>
-    </main>
+    </div>
 </template>
 
 <script setup>

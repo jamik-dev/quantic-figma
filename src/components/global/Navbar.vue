@@ -1,12 +1,12 @@
 <template>
-  <div class="w-full py-6 z-10 fixed top-0 bg-white">
+  <div class="w-full py-4 z-10 sticky top-0 bg-white">
     <div class="w-[80%] mx-auto flex justify-between items-center">
       <div>
         <img src="../../assets/img/logo.svg" alt="">
       </div>
       <div class="ml-40">
         <ul class="flex space-x-10">
-          <a href="home#home" class="relative group cursor-pointer">
+          <a href="home#" class="relative group cursor-pointer">
             <span class="text-primary font-outfit">Bosh Sahifa</span>
             <span
               class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-full duration-500"></span>
