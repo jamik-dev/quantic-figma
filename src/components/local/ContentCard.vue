@@ -6,7 +6,7 @@
         <slot></slot>
       </h1>
       <p class="font-outfit text-primary tracking-wide font-thin w-[95%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim commodo aliquam et mauris elit sed. Blandit ac nisl, quis proin rhoncus. Consectetur donec in id amet, vel, egestas</p>
-      <p class="flex text-gradientto font-outfit tracking-wide">Batafsil<img src="../../assets/img/arrow-right.svg" class="ml-2" alt=""></p>
+      <p class="flex text-gradientto font-outfit tracking-wide group">Batafsil<img src="../../assets/img/arrow-right.svg" class="ml-2 group-hover:ml-4 duration-300" alt=""></p>
     </div>
   </div>
 </template>
