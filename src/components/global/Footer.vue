@@ -25,11 +25,26 @@
         <div class="w-1/6 flex flex-col">
           <h1 class="text-white font-outfit tracking-wide font-bold">Foydali havolalar</h1>
           <div class="flex flex-col space-y-2 mt-10">
-            <p class="font-outfit text-white opacity-60 tracking-wide">Features</p>
-            <p class="font-outfit text-white opacity-60 tracking-wide">Pravicy and Policy</p>
-            <p class="font-outfit text-white opacity-60 tracking-wide">Case studies</p>
-            <p class="font-outfit text-white opacity-60 tracking-wide">Reviews</p>
-            <p class="font-outfit text-white opacity-60 tracking-wide">Updates</p>
+            <div>
+              <a href="#" class="relative group"><span class="text-white opacity-60 tracking-wide font-outfit">Bosh Sahifa</span><span
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-[100%] duration-500"></span></a>
+            </div>
+            <div>
+              <a href="#projects" class="relative group"><span class="text-white opacity-60 tracking-wide font-outfit">Loyihalar</span><span
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-[100%] duration-500"></span></a>
+            </div>
+            <div>
+              <a href="#api" class="relative group"><span class="text-white opacity-60 tracking-wide font-outfit">API</span><span
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-[100%] duration-500"></span></a>
+            </div>
+            <div>
+              <a href="#fields" class="relative group"><span class="text-white opacity-60 tracking-wide font-outfit">Sohalar</span><span
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-[100%] duration-500"></span></a>
+            </div>
+            <div>
+              <a href="#statistics" class="relative group"><span class="text-white opacity-60 tracking-wide font-outfit">Statistika</span><span
+              class="absolute left-0 -bottom-1 w-0 h-[2px] bg-gradient-to-r from-gradientfrom to-gradientto group-hover:w-[100%] duration-500"></span></a>
+            </div>
           </div>
         </div>
         <div class="w-1/6 flex flex-col">
