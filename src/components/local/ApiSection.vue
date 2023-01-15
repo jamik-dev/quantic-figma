@@ -1,7 +1,6 @@
 <template>
-  <div class="w-full h-24" id="api"></div>
-  <div data-aos-easing="linear" data-aos="fade-up" data-aos-duration="1500" class="w-full relative mb-40 mx-auto max-w-[1100px]">
-    <div>
+  <div id="api" class="w-full relative mb-40 mx-auto max-w-[1100px] pt-20">
+    <div data-aos-easing="linear" data-aos="fade-up" data-aos-duration="1000">
       <div class="absolute h-40 w-40 rounded-[100%] bg-blueish -left-20 -top-10 blur-[175px] z-10"></div>
       <div class="absolute h-40 w-40 rounded-[100%] bg-gradientto -right-20 -top-10 blur-[175px] z-10"></div>
       <h1 class="text-primary text-4xl text-center mx-auto font-outfit font-bold tracking-wide max-w-[50%]">TTS.uz API

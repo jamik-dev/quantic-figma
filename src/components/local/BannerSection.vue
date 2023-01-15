@@ -1,5 +1,5 @@
 <template>
-  <div data-aos-easing="linear" data-aos="fade-up" data-aos-duration="1500">
+  <div data-aos-easing="linear" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
     <div class="w-full mt-20 relative overflow-hidden max-w-[1300px] mx-auto">
       <img src="../../assets/img/back-banner.png" class="w-full" alt="">
       <div class="flex absolute top-0 h-full px-16 py-12">
@@ -26,12 +26,6 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
-import AOS from 'aos'
-
-onMounted(() => {
-  AOS.init()
-})
 </script>
 
 <style scoped>

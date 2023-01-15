@@ -13,6 +13,7 @@
 
 <script setup>
 import { computed } from 'vue';
+
 const props = defineProps({
   image: {
     required: true,
@@ -23,7 +24,6 @@ const props = defineProps({
 const getImageUrl = computed(() => {
   return new URL(`../../assets/img/${props.image}`, import.meta.url).href
 })
-
 </script>
 
 <style scoped>
