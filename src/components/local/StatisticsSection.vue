@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full h-28" id="statistics"></div>
-  <div class="flex items-center justify-center" data-aos-easing="linear" data-aos="fade-up" data-aos-duration="1500">
+  <!-- <div class="w-full h-28" id="statistics"></div> -->
+  <div class="flex items-center justify-center pt-28" id="statistics" data-aos="fade-up" data-aos-delay="100" data-aos-easing="linear" data-aos-duration="1000">
     <div class="w-1/3 flex flex-col space-y-2 items-center justify-center">
       <img src="../../assets/img/users.svg" class="w-20" alt="">
       <h1 class="text-primary text-3xl text-center mx-auto font-outfit tracking-wide font-bold">648 000+</h1>

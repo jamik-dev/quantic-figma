@@ -17,7 +17,6 @@ const app = createApp(App)
 
 app.component('Navbar', Navbar)
 app.component('Footer', Footer)
-
 app.use(router)
 
 app.mount('#app')
