@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-28" id="fields"></div>
-    <div class="flex rounded-xl w-full p-2 bg-greyish">
+    <div class="flex rounded-xl w-full p-2 bg-greyish" data-aos-easing="linear" data-aos="fade-up" data-aos-duration="1500">
       <div class="w-1/3 bg-blueish rounded-xl px-5 py-6">
         <h1 class="text-white w-full text-3xl font-outfit tracking-wide">TTS & STT tizimlarini o'rnatish
           reja qilingan sohalar</h1>

@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-24" id="api"></div>
-  <div class="w-full relative mb-40 mx-auto max-w-[1100px]">
+  <div data-aos-easing="linear" data-aos="fade-up" data-aos-duration="1500" class="w-full relative mb-40 mx-auto max-w-[1100px]">
     <div>
       <div class="absolute h-40 w-40 rounded-[100%] bg-blueish -left-20 -top-10 blur-[175px] z-10"></div>
       <div class="absolute h-40 w-40 rounded-[100%] bg-gradientto -right-20 -top-10 blur-[175px] z-10"></div>
