@@ -2,7 +2,7 @@
     <div class="flex items-center">
       <div class="absolute h-40 w-40 rounded-[100%] bg-gradientto left-20 top-40 blur-[120px] z-10"></div>
       <div class="absolute h-40 w-40 rounded-[100%] bg-blueish left-16 top-64 blur-[120px] z-10"></div>
-      <div class="w-1/2">
+      <div class="w-1/2" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear">
         <div class="flex flex-col space-y-8">
           <h1 class="font-outfit text-6xl text-primary max-w-10 font-bold">Matnni ovozga o'girish</h1>
           <p class="text-primary font-outfit tracking-wider font-thin text-xl max-w-[75%]">21-oktabr, O'zbek tiliga davlat tili maqomi
@@ -24,13 +24,19 @@
           </div>
         </div>
       </div>
-      <div class="w-1/2 flex items-end">
+      <div class="w-1/2 flex items-end" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="linear" >
         <img src="../../assets/img/robot.png" class="w-full" alt="">
       </div>
     </div>
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
+import AOS from 'aos'
+
+onMounted(() => {
+  AOS.init()
+})
 </script>
 
 <style scoped>

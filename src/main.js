@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import 'aos/dist/aos.css'
 
 // importing router
 import router from './router'
