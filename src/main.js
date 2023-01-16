@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import { createPinia } from 'pinia'
 import 'aos/dist/aos.css'
 
 // importing router
@@ -18,5 +19,5 @@ const app = createApp(App)
 app.component('Navbar', Navbar)
 app.component('Footer', Footer)
 app.use(router)
-
+app.use(createPinia())
 app.mount('#app')
