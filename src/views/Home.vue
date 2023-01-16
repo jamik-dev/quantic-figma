@@ -31,6 +31,7 @@ import BannerSection from '../components/local/BannerSection.vue';
 import FieldsSection from '../components/local/FieldsSection.vue';
 import StatisticsSection from '../components/local/StatisticsSection.vue';
 import MessageButton from '../components/local/MessageButton.vue';
+import DialogSection from '../components/local/DialogSection.vue';
 </script>
 
 <style scoped>
