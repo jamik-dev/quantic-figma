@@ -1,5 +1,5 @@
 <template>
-  <div data-aos-easing="linear" data-aos="fade-up" data-aos-duration="1000" class="flex flex-col">
+  <div data-aos-easing="linear" data-aos-delay="1000" data-aos="fade-up" data-aos-duration="1000" class="flex flex-col">
     <router-link to="/home" class="font-outfit text-primary flex items-center cursor-pointer"><img class="mr-2" src="../../assets/img/arrow-left.svg" alt="">{{ choosen.name }}</router-link>
     <div class="flex mt-4 space-x-8">
       <div class="flex w-2/5 relative overflow-hidden cursor-pointer group rounded-lg"><img
