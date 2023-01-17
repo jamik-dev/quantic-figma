@@ -1,7 +1,7 @@
 <template>
   <div class="mx-auto w-[80%]">
-    <transition v-if="isLoading" name="fade">
-      <Preloader />
+    <transition name="fade">
+      <Preloader v-if="isLoading" />
     </transition>
     <AboutSection />
     <MessageButton />
@@ -19,11 +19,12 @@ const isLoading = ref(true)
 function preloader() {
   setTimeout(() => {
     isLoading.value = false;
-  }, 300)
+  }, 1000)
 }
 function scrollToTop() {
   window.scrollTo(0,0);
 }
+
 onMounted(() => {
   preloader();
   scrollToTop();
