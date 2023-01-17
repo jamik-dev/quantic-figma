@@ -10,7 +10,7 @@
             loyihalarimiz</h1>
         </div>
         <div class="flex flex-col space-y-20 mt-20">
-          <content-card v-for="(content, index) in contents" :key="index" :image="content.img" data-aos-easing="linear" data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="1000">{{ content.name }}</content-card> 
+          <content-card v-for="content in store.contents" :key="content.id" :id="content.id" :image="content.img" data-aos-easing="linear" data-aos="fade-up-right" data-aos-delay="100" data-aos-duration="1000">{{ content.name }}</content-card> 
         </div>
       </div>
       <div class="w-1/2">
@@ -20,7 +20,7 @@
             quisquam.</p>
         </div>
         <div class="flex flex-col space-y-20 mt-20 items-center">
-          <content-card v-for="(content, index) in contents2" :key="index" :image="content.img" data-aos-easing="linear" data-aos="fade-up-left" data-aos-delay="100" data-aos-duration="1000">{{ content.name }}</content-card> 
+          <content-card v-for="content in store.contents2" :key="content.id" :id="content.id" :image="content.img" data-aos-easing="linear" data-aos="fade-up-left" data-aos-delay="100" data-aos-duration="1000">{{ content.name }}</content-card> 
         </div>
       </div>
     </div>
@@ -29,20 +29,9 @@
 
 <script setup>
 import ContentCard from './ContentCard.vue'
+import { useStore } from '../../store/store';
 
-const contents = [
-  {name: "O'zbekcha sintezator", img: 'content.jpg'},
-  {name: "@ttsuzbot Telegram boti", img: 'content-2.jpg'},
-  {name: "Ovozli tarjimon", img: 'content-3.jpg'},
-  {name: "Qo‘ng‘iroqlarni buyurtma qilish", img: 'content-4.jpg'},
-]
-
-const contents2 = [
-  {name: "UzNutq Sintezator", img: 'content-5.jpg'},
-  {name: "TTS.uz API", img: 'content-6.jpg'},
-  {name: "Shamchiroq", img: 'content-7.jpg'},
-  {name: "Web TTSx", img: 'content-8.jpg'},
-]
+const store = useStore();
 </script>
 
 <style scoped>
