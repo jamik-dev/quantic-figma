@@ -45,8 +45,6 @@ const store = useStore();
 
 const {choosen} = storeToRefs(store)
 
-console.log(choosen.value.img)
-
 const getImageUrl = computed(() => {
   return new URL(`../../assets/img/${choosen.value.img}`, import.meta.url).href
 })
