@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto w-[80%]">
+  <div class="mx-auto w-[90%] lg:w-[85%] xl:w-[80%]">
     <!-- Preloader -->
     <transition name="fade">
       <Preloader v-if="isLoading" />
