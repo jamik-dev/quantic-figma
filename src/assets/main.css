@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   background-color: #000;
   width: 10px;
 }
@@ -14,4 +14,18 @@
 *::-webkit-scrollbar-thumb {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, #F92B74), color-stop(.1, #FB4C59));
   border-radius: 10px;
+} */
+
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: 10px;
+  border-radius: 10px;
+  color: #3366FF;
+  background: #F92B74;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
+
+*::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
 }
