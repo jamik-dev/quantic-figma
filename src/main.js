@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import { createPinia } from 'pinia'
+
+// aos animation
 import 'aos/dist/aos.css'
 
 // importing router
