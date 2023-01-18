@@ -10,8 +10,8 @@
         <div class="flex flex-col mt-12">
           <h1 class="mx-auto font-outfit text-primary text-4xl font-semibold">Tizimga kirish</h1>
           <div class="flex flex-col space-y-3 mt-6">
-            <div class="flex relative"><span class="absolute top-0 left-0 rounded-l-xl bg-hoverbg text-primary font-semibold tracking-wider top-[2px] left-[2px] border-r-[1px] font-outfit p-4 text-center">+998</span><input class="p-4 pl-24 rounded-xl text-primary outline-none font-outfit tracking-wider bg-hoverbg focus:bg-white placeholder:opacity-60 w-full duration-200 border-2 border-hoverbg focus:border-gradientto" placeholder="99 999 99 99" type="text"></div>
-            <div class="flex relative"><input class="p-4 rounded-xl text-primary outline-none font-outfit tracking-wide bg-hoverbg focus:bg-white placeholder:opacity-60 w-full duration-200 border-2 border-hoverbg focus:border-gradientto" placeholder="parolingizni kiriting" type="text"></div>
+            <div class="flex relative"><span class="absolute top-0 left-0 rounded-l-xl bg-hoverbg text-primary font-semibold tracking-wider top-[2px] left-[2px] border-r-[1px] font-outfit p-4 text-center">+998</span><input class="p-4 pl-24 rounded-xl text-primary outline-none font-outfit tracking-wider bg-hoverbg focus:bg-white placeholder:opacity-60 w-full duration-200 border-2 border-hoverbg focus:border-gradientto" v-maska data-maska="(##)-###-##-##" placeholder="(99)-999-99-99" type="tel"></div>
+            <div class="flex relative items-center"><span @click="showPass = !showPass" class="absolute right-4 cursor-pointer"><img class="w-9" :src="imgUrl" alt=""></span><input class="p-4 rounded-xl text-primary outline-none font-outfit tracking-wide bg-hoverbg focus:bg-white placeholder:opacity-60 w-full duration-200 border-2 border-hoverbg focus:border-gradientto" v-maska data-maska="******************" placeholder="parolingizni kiriting" :type="typeTrigger"></div>
             <a href="#" class="text-end text-lg -translate-y-3 font-outfit tracking-wide text-transparent bg-clip-text hover:bg-gradient-to-l bg-gradient-to-r from-gradientfrom to-gradientto">parolni unutdingizmi?</a>
           </div>
           <div class="flex flex-col space-y-5">
@@ -26,9 +26,18 @@
 
 <script setup>
 import { useStore } from '../../store/store.js';
-
+import {vMaska} from 'maska'
+import {ref, computed} from 'vue';
 const modal = useStore();
+const showPass = ref(false)
 
+const typeTrigger = computed(() => {
+  return showPass.value ? 'text' : 'password';
+})
+
+const imgUrl = computed(() => {
+  return new URL(`../../assets/img/${showPass.value ? 'eye-hide.svg' : 'eye-show.svg'}`, import.meta.url).href
+})
 </script>
 
 <style scoped>
