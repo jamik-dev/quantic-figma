@@ -68,7 +68,7 @@
         <div class="w-2/6 flex flex-col">
           <div class="ml-20">
             <h1 class="text-white font-outfit tracking-wide font-bold">Facebook</h1>
-            <img class="w-60 mt-8" src="../../assets/img/banner-2.jpg" alt="">
+            <iframe class="mt-10" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fttsuzbekistan&amp;tabs=timeline&amp;width=230px&amp;height=120px&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId" width="230px" height="120px" scrolling="no" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" style="border: none; overflow: hidden;"></iframe>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@
         <div>
           <p class="font-outfit text-white tracking-wide">All Rights are Reserved © 2022 TTS.uz</p>
         </div>
-        <div class="flex space-x-10">
+        <div class="flex space-x-4">
           <p class="font-outfit text-white tracking-wide opacity-60">Created by</p>
           <img src="../../assets/img/quantic.svg" alt="">
         </div>
