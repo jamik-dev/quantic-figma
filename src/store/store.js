@@ -3,6 +3,7 @@ import { defineStore } from "pinia";
 export const useStore = defineStore("store", {
   state: () => ({
     isModalOpen: false,
+    showNavbar: true,
     contents: [
       { id: 1, name: "O'zbekcha sintezator", img: "content.jpg" },
       { id: 2, name: "@ttsuzbot Telegram boti", img: "content-2.jpg" },

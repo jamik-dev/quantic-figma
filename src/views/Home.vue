@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto w-[80%]">
+  <div class="mx-auto w-[90%] lg:w-[85%] xl:w-[80%]">
     <!-- Preloader -->
     <transition name="fade">
       <Preloader v-if="isLoading" />
@@ -37,9 +37,11 @@ import StatisticsSection from '../components/local/StatisticsSection.vue';
 import MessageButton from '../components/local/MessageButton.vue';
 import Preloader from '../components/global/Preloader.vue';
 import { onMounted, ref } from 'vue';
-
-
+import { useStore } from '../store/store';
+const store = useStore();
 const isLoading = ref(true)
+
+store.showNavbar = true;
 
 function preloader() {
   setTimeout(() => {
