@@ -37,9 +37,11 @@ import StatisticsSection from '../components/local/StatisticsSection.vue';
 import MessageButton from '../components/local/MessageButton.vue';
 import Preloader from '../components/global/Preloader.vue';
 import { onMounted, ref } from 'vue';
-
-
+import { useStore } from '../store/store';
+const store = useStore();
 const isLoading = ref(true)
+
+store.showNavbar = true;
 
 function preloader() {
   setTimeout(() => {

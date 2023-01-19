@@ -3,7 +3,7 @@
   <transition name="fade">
     <DialogSection v-if="isModalOpen" />
   </transition>
-  <Navbar />
+  <Navbar v-if="modal.showNavbar" />
   <router-view></router-view>
   <Footer />
 </template>
@@ -12,15 +12,21 @@
 import VerticalLines from '../components/local/VerticalLines.vue';
 import DialogSection from '../components/local/DialogSection.vue';
 import { useStore } from '../store/store.js';
+import { useRoute } from 'vue-router';
 import { storeToRefs } from 'pinia';
-// import {watch} from 'vue';
+import {watch} from 'vue';
 
 const modal = useStore();
+const route = useRoute();
 const {isModalOpen} = storeToRefs(modal)
 
-// watch(isModalOpen, function() {
-//   document.querySelector('body').style.overflow = isModalOpen.value ? 'hidden' : 'visible';
-// })
+if(route.path === '/content-details') {
+    modal.showNavbar = false;
+}
+
+watch(isModalOpen, function() {
+  document.querySelector('body').style.overflow = isModalOpen.value ? 'hidden' : 'visible';
+})
 </script>
 
 <style scoped>

@@ -3,9 +3,9 @@
     <div
       class="w-full h-[500px] rounded-3xl lg:rounded-0 lg:h-auto mt-20 relative overflow-hidden max-w-[1300px] mx-auto">
       <img src="../../assets/img/back-banner.png" class="w-full h-full" alt="">
-      <div class="flex absolute top-0 h-full p-4 lg:px-16 lg:py-12">
+      <div class="flex w-full absolute top-0 h-full p-4 lg:px-16 lg:py-12">
         <div class="w-full lg:w-2/3 flex lg:flex-col">
-          <p class="w-full lg:w-[90%] lg:leading-10 text-white font-thin text-xl lg:text-4xl font-outfit">Telegram kanalimizga <span
+          <p class="w-full lg:w-[90%] lg:leading-10 text-white font-thin text-xl md:text-3xl lg:text-4xl font-outfit">Telegram kanalimizga <span
               class="font-bold">obuna bo'ling</span> va yangiliklarimizdan doimiy xabardor bo‘lib boring</p>
           <a class="hidden lg:block" href="https://t.me/ttsuzbekistan" target="_blank"><img
               src="../../assets/img/telegram-banner.svg" class="absolute left-0 bottom-1 w-[40%]" alt=""></a>
