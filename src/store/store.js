@@ -33,6 +33,9 @@ export const useStore = defineStore("store", {
       } else {
         this.choosen = this.contents2.filter(t => t.id === item)[0];
       }
+    },
+    navbarTrigger(bool) {
+      this.showNavbar = bool
     }
   },
 });
