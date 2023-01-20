@@ -3,7 +3,7 @@
   <transition name="fade">
     <DialogSection v-if="isModalOpen" />
   </transition>
-  <Navbar v-if="modal.showNavbar" />
+  <Navbar v-if="showNavbar" />
   <router-view></router-view>
   <Footer />
 </template>
@@ -18,10 +18,10 @@ import {watch} from 'vue';
 
 const modal = useStore();
 const route = useRoute();
-const {isModalOpen} = storeToRefs(modal)
+const {isModalOpen, showNavbar} = storeToRefs(modal)
 
-if(route.path === '/content-details') {
-    modal.showNavbar = false;
+if(route.path === '/home') {
+    modal.navbarTrigger(true)
 }
 
 watch(isModalOpen, function() {

@@ -41,7 +41,7 @@ import { useStore } from '../store/store';
 const store = useStore();
 const isLoading = ref(true)
 
-store.showNavbar = true;
+store.navbarTrigger(true);
 
 function preloader() {
   setTimeout(() => {
