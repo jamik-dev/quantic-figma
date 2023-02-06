@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-primary py-8 mt-20">
+  <div class="w-full bg-primary py-8">
     <div class="w-[90%] lg:w-[80%] mx-auto">
       <div class="flex">
         <div class="w-3/5 lg:w-2/6 flex flex-col">
