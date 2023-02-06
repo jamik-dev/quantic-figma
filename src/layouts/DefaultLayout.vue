@@ -4,7 +4,9 @@
     <DialogSection v-if="isModalOpen" />
   </transition>
   <Navbar v-if="showNavbar" />
-  <router-view></router-view>
+  <div class="bg-white">
+    <router-view></router-view>
+  </div>
   <Footer />
 </template>
 
